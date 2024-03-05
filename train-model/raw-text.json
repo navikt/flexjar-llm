@@ -1,0 +1,52 @@
+{
+  "1": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "<Name> har vært lat og ikke så hjelpsom når det kommer til å møte opp for møte, det kanske har noe med at han er fra <Sted>.",
+    "output": "Avvik: inneholder rasemessig eller etnisk opprinnelse, politisk oppfatning og religion."
+  },
+  "2": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "<Name> lider av angst, så han møtte ikke opp idag for møtet om arbeidstiltatk",
+    "output": "Avvik: inneholder helseopplysninger og annen informasjon som sier noe om en persons helsetilstand."
+  },
+  "3": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "Selv om vi ikke vet noe konkret, har det blitt spekulert i at <Name> kan være homofil. Dette kommer av hans tilstedeværelse på en rekke arrangement knyttet til LHBT+-samfunnet og hans engasjement for likestilling.",
+    "output": "Avvik: inneholder opplysninger om en fysisk persons seksuelle forhold eller seksuelle orientering."
+  },
+  "4": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "Ifølge våre kilder har <Name> konvertert til <Religion> året før. Dette kan ha betydning for hans eller hennes arbeidsmessige holdninger og valg, men det er også viktig å merke seg at religiøs orientering ikke nødvendigvis sier noe om en persons evner eller kompetanse.",
+    "output": "Avvik: inneholder informasjon om religion."
+  },
+  "5": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "<Name> har nettopp fått en diagnose for bipolar lidelse, noe som kan ha påvirket hans arbeidsprestasjoner i det siste.",
+    "output": "Avvik: tekstinnholdet inneholder helseopplysninger, spesifikt en psykisk helse diagnose."
+  },
+  "6": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "Under en samtale nevnte <Name> at han tar <Sykdom>-medisiner, noe som kan forklare hvorfor han ofte er borte fra kontoret.",
+    "output": "Avvik: Teksten inneholder sensitiv helseinformasjon, spesielt angående en alvorlig helsetilstand."
+  },
+  "7": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "<Name> har uttrykt bekymring for sin vektøkning og mulig utvikling av spiseforstyrrelser.",
+    "output": "Avvik: inneholder informasjon om sensitive personlige helseopplysninger."
+  },
+  "8": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "På grunn av sin kroniske ryggsmerte, har <Name> spurt om muligheten for å jobbe hjemmefra mer regelmessig.",
+    "output": "Avvik: inneholder informasjon om en fysisk helse tilstand. Dette er en sensitiv personlig helseopplysning."
+  },
+  "9": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "<Name> har nylig blitt gravid og har delt dette med teamet for å planlegge sin kommende foreldrepermisjon.",
+    "output": "Avvik: inneholder informasjon om graviditet, som er en sensitiv personlig helseopplysning."
+  },
+  "10": {
+    "instruct": "Hvilken type av sensitiv personlig informasjon innholder denne teksten?",
+    "input": "Det ble kjent at <Name> nylig gjennomgikk en kjønnsbekreftende operasjon og har endret sitt juridiske kjønn.",
+    "output": "Avvik: inneholder sensitiv informasjon om en persons kjønnsidentitet"
+  }
+}

@@ -1,0 +1,83 @@
+{
+    "1": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Hadde vært fint om dere viste navn på ukedag sammen med dato fra-til når jeg skal bekrefte sykemeldingsperioden. Som eksempel var min periode 17.april - 24.april. Her hadde det vært en fordel å se ukedagen, altså tirsdag 17.april - søndag 24.april. Ellers ser ting veldig bra ut! Hilsen noen som også jobber med digitale skjemaer og tjenester.",
+        "output": "Tibakemeldingen inneholder helseopplysninger om sykemeldingsperiode"
+    },
+    "2": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Hadde vært fint om dere viste navn på ukedag sammen med dato fra-til når jeg skal bekrefte sykemeldingsperioden. Som eksempel var min periode 17.april - 24.april. Her hadde det vært en fordel å se ukedagen, altså tirsdag 17.april - søndag 24.april. Ellers ser ting veldig bra ut! Hilsen <Name>.",
+        "output": "Tibakemeldingen inneholder helseopplysninger om sykemeldingsperiode og personopplysninger om navn på bruker"
+    },
+    "3": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "NEI: Jeg er sykmeldt for utmattelse grunnet stress på arbeidsplassen. Jeg har 3 ulike arbeidsgivere og ønsker å sende samme sykmelding til alle. Hvorfor må jeg sende separat til hver enkelt arbeidsiver",
+        "output": "Tibakemeldingen inneholder helseopplysninger"
+    },
+    "4": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Hvordan blir det tydelig for jobben at jeg var sykemeldt pga sykt barn?",
+        "output": "Tibakemeldingen inneholder ikke personopplysninger"
+    },
+    "5": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Tjenesten deres er fantastisk, men jeg vil gjerne endre e-postadressen til kontoen min. Den nye e-postadressen er <e-mail>",
+        "output": "Tibakemeldingen inneholder personopplysninger om e-postadresse"
+    },
+    "6": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Jeg har nylig gjennomgått en operasjon, og jeg trenger tilgang til sykehistorien min på kontoen min. Kan dere legge til denne funksjonen?",
+        "output": "Tibakemeldingen inneholder ikke personopplysninger"
+    },
+    "7": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Jeg har nylig gjennomgått en operasjon, og vil være sykmeldt i perioden 11. januar til 3. februar. Hvorfor kan jeg ikke endre denne perioden selv?",
+        "output": "Tibakemeldingen inneholder helseopplysninger om sykemeldingsperiode"
+    },
+    "8": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Det var en flott opplevelse å bruke tjenesten deres. Hilsen <Name>",
+        "output": "Tibakemeldingen inneholder ikke personopplysninger"
+    },
+    "9": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Jeg trenger å sende sykmeldingen til arbeidsgiveren min, ABC Corporation. Kan dere legge til en enkel måte å sende dokumenter direkte til arbeidsgiveren?",
+        "output": "Tibakemeldingen inneholder informasjon om arbeidsgiver (ABC Corporation)"
+    },
+    "10": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "JA: lett forståelig",
+        "output": "Tibakemeldingen inneholder ikke personopplysninger"
+    },
+    "11": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Jeg har depresjon, og jeg lurer på om det er ressurser eller veiledning tilgjengelig på plattformen deres.",
+        "output": "Tibakemeldingen inneholder helseopplysninger om diagnose"
+    },
+    "12": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Jeg har fått påvist ADHD, og jeg lurer på om arbeidsgiver vil se dette.",
+        "output": "Tibakemeldingen inneholder helseopplysninger om diagnose"
+    },
+    "13": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "FORBEDRING: Som leder vil jeg gjerne kunne se maksdato for sykepenger.",
+        "output": "Tibakemeldingen inneholder ikke personopplysninger"
+    },
+    "14": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "NEI: Systemet er for dårlig og rotete. Se heller til Trondheim kommune, de har et bedre oversiktlig system.",
+        "output": "Tibakemeldingen inneholder ikke personopplysninger"
+    },
+    "15": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "JA: Veldig bra at den sykemeldte også skal oppgi egenmeldingsdager for en viss periode.",
+        "output": "Tibakemeldingen inneholder ikke personopplysninger"
+    },
+    "16": {
+        "instruct": "Hvilken kategori av personopplysninger inneholder denne teksten?",
+        "input": "NEI: Var sykmeldt den 11. november også.",
+        "output": "Tibakemeldingen inneholder helseopplysninger om sykemeldingstidspunkt"
+    }
+}
+
