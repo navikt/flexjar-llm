@@ -1,4 +1,7 @@
-train-output
-!train-output/.gitkeep
+finetune-output
+!finetune-output/.gitkeep
+models
+!models/.gitkeep
 *.gguf
 .DS_Store
+venv
