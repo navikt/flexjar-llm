@@ -11,7 +11,7 @@
 ## Kjøre modell uten docker (raskere på mac med M-chip)
 - Klon repoet llama.cpp (https://github.com/ggerganov/llama.cpp)
 - Kjør `make` i llama.cpp for å bygge
-- Kjør `./server -v -c 4096 -ngl 50 -n 256 -m models/ Llama-2-13b-chat-norwegian.gguf --host 0.0.0.0 --port 8007` i llama.cpp for å kjøre modellen
+- Kjør `./server -v -c 4096 -ngl 50 -n 256 -m PATH-TO-MODEL/ Llama-2-13b-chat-norwegian.gguf --host 0.0.0.0 --port 8007` i llama.cpp for å kjøre modellen
 
 ## Fine-tuning med lora
 - Generer treningsdata med eksempler på oppgaver og respons. Se eksempler i `finetune-modell/raw-text.sjon`
@@ -25,5 +25,5 @@
     `--train-data` til riktig modell og in/output-fil
 
 ## Kjøre modellen med lora
-- Legg til `--lora path-to-lora/lora-fil.gguf` etter modellnavn i enten `start.sh` eller i `./server`-komandoen for å kjøre modellen med lora
+- Legg til `--lora PATH-TO-LORA/LORA-FILE.gguf` etter modellnavn i enten `start.sh` eller i `./server`-komandoen for å kjøre modellen med lora
 
