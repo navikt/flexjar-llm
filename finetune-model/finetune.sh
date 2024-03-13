@@ -2,9 +2,9 @@
 
 ../bin/finetune \
 --model-base ../models/Llama-2-13b-chat-norwegian.gguf \
---checkpoint-in ../train-output/lora-checkpoint-flex3-LATEST.gguf \
---checkpoint-out ../train-output/lora-checkpoint-flex3-ITERATION.gguf \
---lora-out ../train-output/lora-flex3-ITERATION.gguf \
+--checkpoint-in ../train-output/lora-checkpoint-flex4-LATEST.gguf \
+--checkpoint-out ../train-output/lora-checkpoint-flex4-ITERATION.gguf \
+--lora-out ../train-output/lora-flex4-ITERATION.gguf \
 --train-data "instructed-trainingdata-flex2.jsonl" \
 --save-every 20 \
 --rope-freq-base 10000 \
