@@ -1,10 +1,11 @@
 from datetime import datetime
+from grammar import grammar
 
 import requests
 
 def chat(chat_history):
     chat_history='\n'.join(chat_history)+'\nASSISTANT:'
-    api_url = 'http://0.0.0.0:8007/completion'
+    api_url = 'http://0.0.0.0:8080/completion'
     json_body = {
         "stream": False,
         "n_predict":400,
